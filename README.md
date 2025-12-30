@@ -16,7 +16,18 @@ whereas a **non-interactive shell** is used for service accounts and prevents lo
 
 ---
 
-- Day 2 ⏳
+- Day 2 ✔️
+  - **Day 2 ✔️ Linux User Management (Temporary Users)**
+
+### 🔹 Learnings
+**Creating temporary users with account expiry**
+
+A **temporary user account** provides time-bound access by setting an  
+**account expiry date**. Using `useradd -e`, the account is automatically  
+disabled after the specified date, helping improve **security**,  
+**access control**, and **user lifecycle management**.
+
+---
 - Day 3 ⏳
 - Day 4 ⏳
 - Day 5 ⏳
