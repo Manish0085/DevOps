@@ -28,7 +28,20 @@ disabled after the specified date, helping improve **security**,
 **access control**, and **user lifecycle management**.
 
 ---
-- Day 3 ⏳
+
+- **Day 3 ✔️ Linux Security (Disable Root SSH Login)**
+
+### 🔹 Learnings  
+**Disabling direct root SSH access**
+
+Direct SSH login as the **root user** poses a significant security risk.  
+By configuring SSH to disable root login using `PermitRootLogin no`,  
+administrative access is enforced through **sudo-enabled users**.  
+This approach improves **system security**, reduces the **attack surface**,  
+and ensures compliance with security best practices.
+
+---
+ 
 - Day 4 ⏳
 - Day 5 ⏳
 - Day 6 ⏳
