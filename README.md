@@ -42,7 +42,19 @@ and ensures compliance with security best practices.
 
 ---
  
-- Day 4 ⏳
+- # Day 4 – Linux File Permissions (Executable Scripts)
+
+## 🔹 Learnings
+**Managing executable permissions for shell scripts**
+
+Linux scripts must have proper **read (`r`) and execute (`x`) permissions** to run successfully.  
+By using `chmod 755`, executable access is granted to **all users**,  
+while modification rights remain restricted to the **owner**.  
+This ensures scripts are **securely executable**, prevents unauthorized changes,  
+and follows **Linux security best practices** for production environments.
+
+---
+
 - Day 5 ⏳
 - Day 6 ⏳
 - Day 7 ⏳
