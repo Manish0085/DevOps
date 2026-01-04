@@ -1,4 +1,4 @@
-# Day X – Password-less SSH Authentication Setup 🔐
+# Day 7 – Password-less SSH Authentication Setup 🔐
 
 ## 📌 Task Overview
 The system administration team requires **password-less SSH access** from the **jump host** to all **app servers** so that automation scripts can run without manual intervention.
