@@ -15,8 +15,8 @@ Tracking my hands-on DevOps learning using **KodeKloud labs**.
 ### 🔹 Learnings  
 **Interactive vs Non-Interactive Terminals**
 
-An **interactive shell** allows users to log in and execute commands directly.  
-A **non-interactive shell** is typically used by service or system accounts and does not allow login,  
+- An **interactive shell** allows users to log in and execute commands directly.  
+- A **non-interactive shell** is typically used by service or system accounts and does not allow login,  
 which helps improve **system security** by restricting direct user access.
 
 ---
