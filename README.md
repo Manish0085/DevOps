@@ -62,7 +62,34 @@ and follows **Linux security best practices** for production environments.
 
 - Day 5 ⏳
 - Day 6 ⏳
-- Day 7 ⏳
+---
+
+## ✅ Day 7 – Alllowing Password-Less ssh Login
+
+### 🔹 Learnings
+
+- Learned how **SSH key-based authentication** works and why it is essential for automation.
+- Understood the purpose of SSH files:
+  - `id_rsa` → private key  
+  - `id_rsa.pub` → public key  
+  - `authorized_keys` → stores trusted public keys on remote servers
+- Learned that `ssh-copy-id` fails if **no SSH identity exists** and requires a generated key.
+- Gained hands-on experience generating **RSA 4096-bit SSH keys** using `ssh-keygen`.
+- Learned the importance of **correct SSH permissions** to avoid authentication issues:
+  - `.ssh` → `700`
+  - `id_rsa` → `600`
+  - `id_rsa.pub` → `644`
+- Understood how password-less SSH enables **cron jobs, scripts, and DevOps automation**.
+- Practiced real-world **Linux troubleshooting** by fixing SSH key location and permission issues.
+- Reinforced DevOps best practices for **secure and automated server access**.
+
+
+
+### 🧠 Key Takeaway
+Password-less SSH is a foundational DevOps skill that enables secure, scalable, and fully automated system operations.
+
+---
+
 - Day 8 ⏳
 - Day 9 ⏳
 
