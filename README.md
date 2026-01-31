@@ -91,7 +91,22 @@ Password-less SSH is a foundational DevOps skill that enables secure, scalable, 
 ---
 
 - Day 8 ⏳
-- Day 9 ⏳
+---
+
+## ✅ Day 9 - MariaDB Service Failure – Production Incident Resolution
+  
+## 📘 Today’s Learning
+
+- Always **check service logs first** (`journalctl`) before attempting fixes
+- An **exit-code = 1** without a crash usually indicates a **configuration-level issue**
+- MariaDB fails fast when it encounters **invalid configuration directives**
+- Avoid blind edits — use **non-destructive and reversible actions** (e.g., backing up config files)
+- `systemctl reset-failed` is important when a service enters a failed state
+- Isolating the root cause is safer than applying quick fixes under pressure
+- Proper validation after restart ensures **service stability**, not just recovery
+
+➡️ This incident reinforced the importance of **systematic debugging, log analysis, and safe recovery strategies** in production environments.
+
 
 ---
 
